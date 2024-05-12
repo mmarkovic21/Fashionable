@@ -1,0 +1,312 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Apr 23, 2024, 10:51:32 AM
+    Author     : Marija
+*/
+/* mandatory css */
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    font-weight: 400;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+    margin: 0rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    max-width: 113.9rem;
+    margin: 0 auto;
+    padding: 0rem 1rem;
+}
+
+/* end of mandatory css */
+
+ul {
+    list-style-type: none;
+}
+
+a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.section-title {
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 4.4rem;
+    line-height: 5.28rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.d-flex {
+    display:flex;
+    -webkit-display:flex;
+    -moz-display:flex;
+    -o-display:flex;
+    -ms-display:flexbox;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+.align-items-stretch {
+    align-items: stretch;
+}
+
+header {
+    background-color: #000;
+    padding: 2.5rem 0rem;
+    position: fixed;
+    top: 0rem;
+    left: 0rem;
+    width: 100%;
+}
+
+.header-logo img {
+    display: block;
+    width: 100%;
+}
+
+.header-navigation .navigation-part .nav-item {
+    margin-left: 8.4rem;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 800;
+    line-height: 1.68rem;
+}
+
+.header-navigation .navigation-part .nav-item a{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.header-navigation .navigation-part .nav-item a:hover{
+    color: rgba(255, 255, 255, 1);
+    border-bottom: 0.1rem solid #FFF;
+}
+
+.lead-image {
+    margin-top: 8rem;
+}
+
+.lead-image .hero-image img {
+    display: block;
+    width: 100%;
+}
+
+.about {
+    background-color: #000;
+    color: #FFF;
+    padding: 10.8rem 0rem 15.1rem;
+}
+
+.about .section-title {
+    margin-bottom: 7.6rem;
+}
+
+.about .about-text{
+    flex: 0 0 calc(100% / 12 * 5);
+    text-align: justify;
+    font-size: 1.8rem;
+    line-height: 2.9rem;
+}
+
+.news {
+    padding: 8.7rem 0rem 5rem;
+}
+
+.news .news-wrapped .news-article{
+    flex: 0 0 calc(100% / 12 * 5);
+}
+
+.news .section-title {
+    margin-bottom: 3.8rem;
+}
+
+.news-article .news-img img {
+    display: block;
+    width: 100%;
+}
+
+.news-article .news-img{
+    display: block;
+    width: 100%;
+    margin-bottom: 0.9rem;
+}
+
+.news-article .news-category {
+    color: rgba(138, 138, 138, 1);
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    margin-bottom: 3.8rem;
+    letter-spacing: 0.3rem;
+}
+
+.news-article .news-title a{
+    color: #000;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    margin-bottom: 1rem;
+}
+
+.news-article .news-description {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    margin-bottom: 7.3rem;
+}
+
+.news-article:hover .news-title a{
+    border-bottom: 1px solid black;
+    display: inline;
+}
+
+.blog {
+    padding: 7.2rem 0rem 9.4rem;
+}
+
+.blog-item {
+    flex: 0 0 calc(100% / 12 * 4);
+    border: 1px solid rgba(217, 217, 217, 1);
+}
+
+.blog .section-title {
+    margin-bottom: 4.9rem;
+}
+
+.blog-wrapped .blog-title {
+    margin: 8.6rem 0rem 1.8rem 3.7rem;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 600;    
+    font-size: 2.2rem;
+    line-height: 2.9rem;
+}
+
+.blog-wrapped .blog-text {
+    margin: 0rem 3.7rem 8.6rem;
+    text-align: justify;
+}
+
+.blog-item:nth-of-type(even) {
+    background-color: #000;
+    color: #FFF;
+}
+
+.contact {
+    padding: 7.2rem 0rem 12.1rem;
+}
+
+.contact .section-title {
+    margin-bottom: 7.2rem;
+}
+
+.contact .contact-wrapped .contact-image {
+    flex: 0 0 calc(100% / 12 * 6);
+    display: block;
+    width: 100%;
+}
+
+.contact .contact-wrapped .contact-info {
+    margin-left: 11.9rem;
+    margin-top: 8.3rem;
+}
+
+.contact-info .contact-name {
+    font-size: 2.8rem;
+    line-height: 3.36rem;
+    font-weight: 600;
+    margin-bottom: 1.9rem;
+}
+
+.contact-info .contact-address {
+    line-height: 2.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact-info .contact-tel {
+    line-height: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.contact-info .contact-tel a{
+    color: #000;
+}
+
+.contact-info .contact-tel a:hover {
+    font-weight: 600;
+}
+
+.contact-info .contact-mail{
+    line-height: 2.2rem;
+}
+
+.contact-info .contact-mail a{
+    color: #000;
+}
+
+.contact-info .contact-mail a:hover {
+    font-weight: 600;
+}
+footer {
+    background-color: #000;
+    padding: 3.5rem 0rem;
+}
+
+.social .navigation-footer .footer-item {
+    line-height: 3.3rem;
+    font-size: 2.9rem;
+    margin-left: 5.05rem;
+    padding-bottom: 0.3rem;
+}
+
+.social .navigation-footer .footer-item a{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.social .navigation-footer .footer-item a:hover {
+    color: rgba(255, 255, 255, 1);
+    border-bottom: 1px solid white;
+    padding-bottom: 0.3rem;
+}
